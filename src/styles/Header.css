@@ -1,8 +1,26 @@
-div #Header{
+#Header{
     background-color: white;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #Header img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+#Header #text-container{
+    width: 100%;
+    padding: 0px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Header #text-container div p{
+    padding: 0px 15px;
+}
+
+#Header #text-container div p:hover{
+    color: gray;
+    cursor: pointer;
 }
